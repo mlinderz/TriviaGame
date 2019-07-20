@@ -1,4 +1,5 @@
 var score = 0
+var wrong = 0 
 var questions = [
     {
         question: "Which 90’s boy band sings the song I Want It That Way?",
@@ -48,7 +49,7 @@ $("#submit").on("click", function(){
     var q2 = $("input[name= 1]:checked").val();
     var q3 = $("input[name= 2]:checked").val();
 
-    console.log(q1, q2, q3)
+    console.log(q1, q2, q3, q3, q4, q5, q6)
     if (q1 == questions[0].correctAnswer){
         score++
     }
@@ -56,6 +57,15 @@ $("#submit").on("click", function(){
         score++
     }
     if (q3 == questions[2].correctAnswer){
+        score++
+    }
+    if (q4 == questions[3].correctAnswer){
+        score++
+    }
+    if (q5 == questions[4].correctAnswer){
+        score++
+    }
+    if (q6 == questions[5].correctAnswer){
         score++
     }
     console.log(score)
