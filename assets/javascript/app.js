@@ -15,6 +15,21 @@ var questions = [
         answers: ["MDMA", "caffeine pills", "OxyContin", "sleeping pills"],
         correctAnswer: "caffeine pills"
     },
+    {
+        question: "The Whack Heard Around the World’ happened on what reality TV show?",
+        answers: ["Road Rules", "Candid Camera", "Cops", "The Real World"],
+        correctAnswer: "The Real World"
+    },
+    {
+        question: "Rocko, from Rocko's Modern Life, was what kind of animal?",
+        answers: ["Dog", "Rat", "Wallaby", "Cats"],
+        correctAnswer: "Wallaby"
+    },
+    {
+        question: "Which one of these names does not belong to a Hansen brother?",
+        answers: ["Zac", "Jeremy", "Taylor", "Issac"],
+        correctAnswer: "Jeremy"
+    },
 ]
 
 function displayQuestions(){
