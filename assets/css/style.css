@@ -1,0 +1,24 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(assets/images/eighties.jpg);
+  }
+
+  h1 {
+    display: flexbox;
+    text-align: center;
+    font-size: 40px;
+    background-color: teal;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+
+
+
+
