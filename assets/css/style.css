@@ -1,24 +1,46 @@
 
 * {
     box-sizing: border-box;
+
   }
   
   body {
+    display: flexbox;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: url(assets/images/eighties.jpg);
+    color: black;
+    background-image: url(/Users/melindasantana/Documents/GitHub/TriviaGame/assets/images/eighties.jpg)
+
   }
 
   h1 {
-    display: flexbox;
     text-align: center;
-    font-size: 40px;
-    background-color: teal;
-    color: whitesmoke;
+    font-size: 70px;
+    background-color:pink;
+    color: black;
     padding: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
   }
 
+  #questions {
+    background-color:pink;
+    text-align: center;
+    background-color: baby;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+  }
 
+  #timer {
+    display: flexbox;
+    text-align: left;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+  }
 
+.button {
+      text-align: center;
+      font: 100px;
+  }
 

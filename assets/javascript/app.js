@@ -156,6 +156,8 @@ function decreaseCounter(){
     $('#timer').text("Time Remaining: " + counter);
 }
 
+
 var timeOut = setInterval(decreaseCounter, 1*1000);
 
 //Freezing game if you don't finish in time//
+
