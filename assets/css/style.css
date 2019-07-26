@@ -23,16 +23,15 @@
   }
 
   #questions {
-    background-color:pink;
+    background-color: pink;
     text-align: center;
-    background-color: baby;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
   }
 
   #timer {
-    display: flexbox;
+    background-color: pink;
     text-align: left;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
